@@ -37,9 +37,3 @@ vector<int> solution(vector<int> answers) {
 
     return answer;
 }
-
-int main() {
-   vector<int> answer= solution({ 1,3,2,4,2 });
-   for (int i = 0; i < answer.size(); ++i)
-       cout << answer[i] << " ";
-}
